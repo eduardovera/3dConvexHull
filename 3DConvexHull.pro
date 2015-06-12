@@ -16,8 +16,9 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    glutmanager.cpp \
-    utils.cpp
+    topologicds.cpp \
+    utils.cpp \
+    convexhull2d.cpp
 
 win32 {
     INCLUDEPATH += "$(CG_INC_PATH)" \
@@ -49,5 +50,4 @@ win32 {
     }
 }
 
-HEADERS += \
-    glutmanager.h
+HEADERS +=
